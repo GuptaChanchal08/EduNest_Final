@@ -1,0 +1,20 @@
+=== PASTE THESE INTO server/.env ===
+
+MONGODB_URL=mongodb+srv://tirup1488_db_user:c4WWxqtdhqeRoGkT@edunest-lms.pbqluhj.mongodb.net/edunest?retryWrites=true&w=majority
+JWT_SECRET=edunest_jwt_super_secret_key_2025_tirup
+MAIL_HOST=smtp.gmail.com
+MAIL_USER=tirup.parmar@gmail.com
+MAIL_PASS=eavjrjnlnjknvtvh
+CLOUD_NAME=dne0t8zyi
+API_KEY=931371681575913
+API_SECRET=sSrvqAmfa6ht0SJXIHlb5_9Pi2Y
+FOLDER_NAME=edunest
+RAZORPAY_KEY=rzp_test_SO1IV8T96UTX8S
+RAZORPAY_SECRET=c33frh15bcXzckcgUzvvoR0W
+FRONTEND_URL=http://localhost:3000
+PORT=4000
+
+=== PASTE THESE INTO root .env ===
+
+REACT_APP_BASE_URL=http://localhost:4000/api/v1
+REACT_APP_RAZORPAY_KEY=rzp_test_SO1IV8T96UTX8S

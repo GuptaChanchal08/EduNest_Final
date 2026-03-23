@@ -1,0 +1,10 @@
+const express = require("express")
+const router = express.Router()
+const { auth } = require("../middleware/auth")
+const { createAnnouncement, getCourseAnnouncements, getStudentAnnouncements, markAnnouncementRead, deleteAnnouncement } = require("../controllers/Announcement")
+router.post("/create", auth, createAnnouncement)
+router.get("/", auth, getCourseAnnouncements)
+router.get("/student-all", auth, getStudentAnnouncements)
+router.post("/read", auth, markAnnouncementRead)
+router.post("/delete", auth, deleteAnnouncement)
+module.exports = router
